@@ -1,0 +1,21 @@
+[
+{"URL:": "https://raw.githubusercontent.com/Monsieur-Zinj/blog/master/manage.py", "py_file": [" os", " sys"]},
+{"URL:": "https://raw.githubusercontent.com/boilercodes/python/main/pyproject.toml", "py_file": []},
+{"URL:": "https://raw.githubusercontent.com/Monsieur-Zinj/blog/master/blog/tests.py", "py_file": []},
+{"URL:": "https://raw.githubusercontent.com/Monsieur-Zinj/blog/master/blog/admin.py", "py_file": []},
+{"URL:": "https://raw.githubusercontent.com/Monsieur-Zinj/blog/master/blog/views.py", "py_file": []},
+{"URL:": "https://raw.githubusercontent.com/Monsieur-Zinj/blog/master/blog/models.py", "py_file": []},
+{"URL:": "https://raw.githubusercontent.com/Monsieur-Zinj/blog/master/mysite/settings.py", "py_file": [" os"]},
+{"URL:": "https://raw.githubusercontent.com/Monsieur-Zinj/blog/master/mysite/asgi.py", "py_file": [" os"]},
+{"URL:": "https://raw.githubusercontent.com/Monsieur-Zinj/blog/master/blog/apps.py", "py_file": []},
+{"URL:": "https://raw.githubusercontent.com/Monsieur-Zinj/blog/master/mysite/urls.py", "py_file": []},
+{"URL:": "https://raw.githubusercontent.com/Monsieur-Zinj/blog/master/mysite/wsgi.py", "py_file": [" os"]},
+{"URL:": "https://raw.githubusercontent.com/boilercodes/python/main/app/__main__.py", "py_file": []},
+{"URL:": "https://raw.githubusercontent.com/Monsieur-Zinj/blog/master/blog/migrations/0001_initial.py", "py_file": [" django", " django"]},
+{"URL:": "https://raw.githubusercontent.com/boilercodes/python/main/app/__init__.py", "py_file": [" os"]},
+{"URL:": "https://raw.githubusercontent.com/boilercodes/python/main/tests/plugins/env_vars.py", "py_file": [" pytest"]},
+{"URL:": "https://raw.githubusercontent.com/boilercodes/python/main/tests/app/dummy_test.py", "py_file": []},
+{"URL:": "https://raw.githubusercontent.com/boilercodes/python/main/app/core/__init__.py", "py_file": []},
+{"URL:": "https://raw.githubusercontent.com/boilercodes/python/main/app/core/config.py", "py_file": []},
+{"URL:": "https://raw.githubusercontent.com/boilercodes/python/main/app/core/constants.py", "py_file": []}
+]
