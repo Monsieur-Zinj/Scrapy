@@ -38,10 +38,11 @@ class GetPySpider(CrawlSpider):
         # so we can extract the libraries
         else:
             lib = self.get_lib(response)
-            yield {#'title': response.css("title::text").get(),
-                "URL:": response.request.url,
-                "py_file": lib
-                #"lib": response.css("body").re(r"import.*?\n")
+            if lib!=[]:
+                yield {#'title': response.css("title::text").get(),
+                    "URL:": response.request.url,
+                    "py_file": lib
+                    #"lib": response.css("body").re(r"import.*?\n")
 
 
 
@@ -53,7 +54,16 @@ class GetPySpider(CrawlSpider):
         # in rep, match the lines containing "import" or "from"
 
         # get the lines containing "import" or "from"
-        lib = re.findall("^import(.*?)(?:$|\.)", rep, re.MULTILINE )
+        lib = re.findall("(?:from (.*?)\.|^import (.*?)(?: as |$))", rep, re.MULTILINE )
+        # concatenate all elements of lib
+        lib = [item for sublist in lib for item in sublist]
+        # remove empty strings
+        lib = [x for x in lib if x]
+        # remove duplicates
+        lib = list(dict.fromkeys(lib))
+        
+        
+        
         return lib
 
 
