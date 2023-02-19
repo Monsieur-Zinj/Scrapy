@@ -67,3 +67,7 @@ class GetPySpider(CrawlSpider):
         return lib
 
 
+# run the spider
+# should be run from py_lib_scrap directory
+# -0 option to erase the previous json file
+# scrapy runspider get_py_2.py -O py_lib_2.json
