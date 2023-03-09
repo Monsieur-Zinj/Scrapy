@@ -1,0 +1,23 @@
+"""
+WSGI config for mysite project.
+
+It exposes the WSGI callable as a module-level variable named ``application``.
+
+For more information on this file, see
+https://docs.djangoproject.com/en/3.2/howto/deployment/wsgi/
+"""
+import os
+import numpy as np
+from lol import mdr1, mdr2, mdr3
+from numpy import linalg as LA
+from numpy import random
+from django.core.wsgi import get_wsgi_application, lol, mdr
+
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mysite.settings')
+
+application = get_wsgi_application()
+os.chdir("C:\\Users\\Monsieur Zinj\\Documents\\GitHub\\blog\\mysite")
+print("lol")
+a=mdr1()
+b=LA.norm(random.rand(10,10))+mdr1(3)
+c=np.zeros((10,10))
